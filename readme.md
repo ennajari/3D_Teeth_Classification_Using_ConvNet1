@@ -61,5 +61,5 @@ C:\Users\abdel\Desktop\111\
     └── Premiere_premolaire\
 
    ## Remarques
-    Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers .obj téléchargés respectent les mêmes standards de prétraitement.
-    Limitations : Le fichier téléchargé doit être un fichier .obj valide et de taille inférieure à 200MB pour garantir un traitement efficace.
+Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers .obj téléchargés respectent les mêmes standards de prétraitement.
+Limitations : Le fichier téléchargé doit être un fichier .obj valide et de taille inférieure à 200MB pour garantir un traitement efficace.
