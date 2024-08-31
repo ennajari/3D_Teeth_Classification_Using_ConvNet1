@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 3D Teeth Classification
 
 Ce projet est une application de classification et de visualisation 3D de modèles de dents. Elle permet de classifier un modèle de dent en 7 catégories différentes à l'aide d'un modèle de réseau de neurones convolutif (CNN). L'application permet également aux utilisateurs de visualiser le modèle 3D de la dent téléchargée et d'explorer une vue à 360 degrés.
@@ -65,20 +64,3 @@ C:\Users\abdel\Desktop\111\
     **Remarques**
     Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers .obj téléchargés respectent les mêmes standards de prétraitement.
     Limitations : Le fichier téléchargé doit être un fichier .obj valide et de taille inférieure à 200MB pour garantir un traitement efficace.
-=======
-C:\Users\abdel\Desktop\111\
-│
-├── data_preparation.ipynb
-├── model_training.ipynb
-├── app.py
-├── model_testing.ipynb
-│
-└── data\
-    ├── Canine\
-    ├── Deuxieme_molaire\
-    ├── Deuxieme_premolaire\
-    ├── Incisive_centrale\
-    ├── Incisive_laterale\
-    ├── Premiere_molaire\
-    └── Premiere_premolaire\
->>>>>>> 2a927f73a09a9a7bde6fbe5a33db3f39f4f04221
