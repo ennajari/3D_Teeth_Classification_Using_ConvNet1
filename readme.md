@@ -20,26 +20,25 @@ Assurez-vous d'avoir installé les prérequis suivants avant d'exécuter le proj
 
 Vous pouvez installer les dépendances nécessaires en utilisant `pip` :
 
-```bash
-pip install tensorflow streamlit trimesh pyvista scipy
+bash
+```pip install tensorflow streamlit trimesh pyvista scipy```
 
 
-***Installation***
+## Installation
 1-Clonez ce dépôt sur votre machine locale :
 git clone https://github.com/votre-utilisateur/3D-Teeth-Classification.git
 cd 3D-Teeth-Classification
 2-Assurez-vous d\'avoir installé les dépendances mentionnées dans la section "Prérequis".
 
 3-Placez le modèle pré-entraîné teeth_classification_model.h5 dans le répertoire racine du projet.
-
-***Utilisation***
+***
 
 Pour exécuter l'application Streamlit, utilisez la commande suivante :
 
 ```streamlit run app.py```
 Cela lancera l'application web dans votre navigateur par défaut.
 
-***Fonctionnement***
+## Fonctionnement
 
 1-Téléchargement du fichier 3D : Téléchargez un fichier .obj de dent en utilisant l'interface de téléchargement.
 2-Classification : Une fois le fichier téléchargé, l'application classifie la dent et affiche les probabilités pour chaque catégorie.
@@ -61,6 +60,6 @@ C:\Users\abdel\Desktop\111\
     ├── Premiere_molaire\
     └── Premiere_premolaire\
 
-    **Remarques**
+   ## Remarques
     Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers .obj téléchargés respectent les mêmes standards de prétraitement.
     Limitations : Le fichier téléchargé doit être un fichier .obj valide et de taille inférieure à 200MB pour garantir un traitement efficace.
