@@ -5,17 +5,17 @@ import trimesh
 import pyvista as pv
 from scipy import ndimage
 
-# Load the model
+
 model = tf.keras.models.load_model('teeth_classification_model.h5')
 
-# Categories
+
 categories = ['Canine', 'Deuxieme_molaire', 'Deuxieme_premolaire', 'Incisive_centrale', 
               'Incisive_laterale', 'Premiere_molaire', 'Premiere_premolaire']
 
 def process_obj(file, target_size=(64, 64, 64)):
     mesh = trimesh.load_mesh(file, file_type='obj')
     
-    # Handle if mesh is a scene
+    
     if isinstance(mesh, trimesh.Scene):
         mesh = mesh.dump(concatenate=True)
     
@@ -55,7 +55,7 @@ if uploaded_file is not None:
         st.write(f"{category}: {prediction[0][i] * 100:.2f}%")
         st.progress(float(prediction[0][i]))
 
-    # Add the 360-degree view description
+
     st.subheader("Vues de dents à 360 degrés")
     st.write("Les vues de dents à 360 degrés permettent aux utilisateurs de visualiser un produit sous tous les angles en faisant pivoter l'image à l'aide de leur souris.")
     
