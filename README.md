@@ -25,22 +25,21 @@ Assurez-vous d'avoir installé les prérequis suivants avant d'exécuter le proj
 
 Vous pouvez installer les dépendances nécessaires en utilisant `pip` :
 
-bash
-                pip install tensorflow streamlit trimesh pyvista scipy
+## bash
+          pip install tensorflow streamlit trimesh pyvista scipy
 
 
 ## Installation
-1-Clonez ce dépôt sur votre machine locale :
-git clone https://github.com/votre-utilisateur/3D-Teeth-Classification.git
-cd 3D-Teeth-Classification
-2-Assurez-vous d\'avoir installé les dépendances mentionnées dans la section "Prérequis".
-
-3-Placez le modèle pré-entraîné teeth_classification_model.h5 dans le répertoire racine du projet.
+    1-Clonez ce dépôt sur votre machine locale :
+      - git clone https://github.com/votre-utilisateur/3D-Teeth-Classification.git
+      - cd 3D-Teeth-Classification
+    2-Assurez-vous d\'avoir installé les dépendances mentionnées dans la section "Prérequis".
+    3-Placez le modèle pré-entraîné teeth_classification_model.h5 dans le répertoire racine du projet.
 ***
 
 Pour exécuter l'application Streamlit, utilisez la commande suivante :
 
-    ```streamlit run app.py```
+    streamlit run app.py
 Cela lancera l'application web dans votre navigateur par défaut.
 
 ## Fonctionnement
