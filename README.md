@@ -67,7 +67,7 @@ Structure du Projet :
     ├── Premiere_molaire\
     └── Premiere_premolaire\
 </pre>
-   ## Remarques <pre>
-----> Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers téléchargés respectent les mêmes standards de prétraitement.
-----> Limitations : Le fichier téléchargé doit être un fichier .obj, .stl, ou .ply valide et de taille inférieure à 200MB pour garantir un traitement efficace.
-----> Performances : L'application est optimisée pour gérer les modèles 3D volumineux sans compromettre les performances. Toutefois, la vitesse de traitement dépend de la taille du modèle et des ressources système.</pre>
+   ## Remarques
+    ----> Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers téléchargés respectent les mêmes standards de prétraitement.
+    ----> Limitations : Le fichier téléchargé doit être un fichier .obj, .stl, ou .ply valide et de taille inférieure à 200MB pour garantir un traitement efficace.
+    ----> Performances : L'application est optimisée pour gérer les modèles 3D volumineux sans compromettre les performances. Toutefois, la vitesse de traitement dépend de la taille du modèle et des ressources système.</pre>
