@@ -44,7 +44,7 @@ Cela lancera l'application web dans votre navigateur par défaut.
 2-Classification : Une fois le fichier téléchargé, l'application classifie la dent et affiche les probabilités pour chaque catégorie.
 3-Visualisation 3D : Visualisez le modèle 3D de la dent et explorez la vue à 360 degrés.
 Structure du Projet :
-C:\Users\abdel\Desktop\111\
+<pre>C:\Users\abdel\Desktop\111\
 │
 ├── data_preparation.ipynb
 ├── model_training.ipynb
@@ -59,7 +59,7 @@ C:\Users\abdel\Desktop\111\
     ├── Incisive_laterale\
     ├── Premiere_molaire\
     └── Premiere_premolaire\
-
+</pre>
    ## Remarques
 Modèle : Le modèle de classification a été entraîné sur un jeu de données 3D spécifique. Pour obtenir des résultats optimaux, assurez-vous que les fichiers .obj téléchargés respectent les mêmes standards de prétraitement.
 Limitations : Le fichier téléchargé doit être un fichier .obj valide et de taille inférieure à 200MB pour garantir un traitement efficace.
