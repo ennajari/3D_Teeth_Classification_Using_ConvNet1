@@ -26,7 +26,7 @@ Assurez-vous d'avoir installé les prérequis suivants avant d'exécuter le proj
 Vous pouvez installer les dépendances nécessaires en utilisant `pip` :
 
 bash
-```pip install tensorflow streamlit trimesh pyvista scipy```
+        ```pip install tensorflow streamlit trimesh pyvista scipy```
 
 
 ## Installation
@@ -40,7 +40,7 @@ cd 3D-Teeth-Classification
 
 Pour exécuter l'application Streamlit, utilisez la commande suivante :
 
-```streamlit run app.py```
+    ```streamlit run app.py```
 Cela lancera l'application web dans votre navigateur par défaut.
 
 ## Fonctionnement
