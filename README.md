@@ -1,6 +1,6 @@
 # 3D Teeth Classification
 
-Ce projet est une application de classification et de visualisation 3D de modèles de dents. Elle permet de classifier un modèle de dent en 7 catégories différentes à l'aide d'un modèle de réseau de neurones convolutif (CNN). L'application permet également aux utilisateurs de visualiser le modèle 3D de la dent téléchargée et d'explorer une vue à 360 degrés.
+Ce projet, réalisé en collaboration avec 3D Smart Factory, utilise des réseaux de neurones convolutifs (ConvNet) pour classifier des modèles de dents en 3D. Il combine l'expertise industrielle en imagerie 3D avec des techniques avancées d'apprentissage profond pour améliorer la précision et l'efficacité des diagnostics dentaires.
 
 ## Fonctionnalités
 
